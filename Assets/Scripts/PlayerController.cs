@@ -46,6 +46,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Mouse0) && currentTime >= 2)
         {
+
             animate.NormalizedTime = 0;
             rend.material.color = Color.white;
             played = false;
